@@ -23,7 +23,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="cordova-plugin-email-composer"
+        id="tve-cordova-plugin-email-composer"
         version="0.8.3">
 
     <name>EmailComposer</name>
@@ -33,13 +33,13 @@
         the editing and sending an email message
     </description>
 
-    <repo>https://github.com/katzer/cordova-plugin-email-composer.git</repo>
+    <repo>https://github.com/tveverywhere/cordova-plugin-email-composer.git</repo>
 
     <keywords>appplant, email</keywords>
 
     <license>Apache 2.0</license>
 
-    <author>Sebastián Katzer</author>
+    <author>Anuj Pandey</author>
 
     <engines>
         <engine name="cordova" version=">=3.0.0" />
@@ -82,7 +82,7 @@
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="EmailComposer">
                 <param name="android-package"
-                       value="de.appplant.cordova.emailcomposer.EmailComposer"/>
+                       value="tve.cordova.emailcomposer.EmailComposer"/>
             </feature>
         </config-file>
 
@@ -106,7 +106,7 @@
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="EmailComposer">
                 <param name="android-package"
-                       value="de.appplant.cordova.emailcomposer.EmailComposer"/>
+                       value="tve.cordova.emailcomposer.EmailComposer"/>
             </feature>
         </config-file>
 
@@ -130,9 +130,6 @@
         <js-module src="src/windows/EmailComposerProxy.js" name="EmailComposerProxy">
             <runs />
         </js-module>
-        <js-module src="src/windows/EmailComposerProxyImpl.js" name="EmailComposerProxyImpl">
-            <runs />
-        </js-module>
 
     </platform>
 
@@ -142,7 +139,7 @@
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="EmailComposer">
                 <param name="browser-package"
-                       value="de.appplant.cordova.emailcomposer.EmailComposer"/>
+                       value="tve.cordova.emailcomposer.EmailComposer"/>
             </feature>
         </config-file>
 

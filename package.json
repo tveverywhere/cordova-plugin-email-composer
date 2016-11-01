@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-email-composer",
+  "name": "tve-cordova-plugin-email-composer",
   "version": "0.8.3",
   "description": "Provides access to the standard interface that manages the editing and sending an email message",
   "cordova": {
-    "id": "de.appplant.cordova.plugin.email-composer",
+    "id": "tve.cordova.plugin.email-composer",
     "platforms": [
       "ios",
       "android",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/katzer/cordova-plugin-email-composer.git"
+    "url": "https://github.com/tveverywhere/cordova-plugin-email-composer.git"
   },
   "keywords": [
     "appplant",
@@ -33,10 +33,10 @@
       "version": ">=3.0.0"
     }
   ],
-  "author": "Sebastián Katzer",
+  "author": "Anuj Pandey",
   "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/katzer/cordova-plugin-email-composer/issues"
+    "url": "https://github.com/tveverywhere/cordova-plugin-email-composer/issues"
   },
-  "homepage": "https://github.com/katzer/cordova-plugin-email-composer"
+  "homepage": "https://github.com/tveverywhere/cordova-plugin-email-composer"
 }
