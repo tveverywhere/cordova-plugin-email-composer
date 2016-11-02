@@ -1,10 +1,10 @@
 
-[![npm version](https://badge.fury.io/js/cordova-plugin-email-composer.svg)](http://badge.fury.io/js/cordova-plugin-email-composer)
-[![Code Climate](https://codeclimate.com/github/katzer/cordova-plugin-email-composer/badges/gpa.svg)](https://codeclimate.com/github/katzer/cordova-plugin-email-composer)
+[![npm version](https://badge.fury.io/js/tve-cordova-plugin-email-composer.svg)](http://badge.fury.io/js/tve-cordova-plugin-email-composer)
+[![Code Climate](https://codeclimate.com/github/tveverywhere/tve-cordova-plugin-email-composer/badges/gpa.svg)](https://codeclimate.com/github/tveverywhere/tve-cordova-plugin-email-composer)
 [![PayPayl donate button](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=L3HKQCD9UA35A "Donate once-off to this project using Paypal")
 
 <p align="right">
-    <a href="https://github.com/katzer/cordova-plugin-email-composer/tree/example">EXAMPLE :point_right:</a>
+    <a href="https://github.com/tveverywhere/tve-cordova-plugin-email-composer/tree/example">EXAMPLE :point_right:</a>
 </p>
 
 Cordova Email Plugin
@@ -40,30 +40,30 @@ The plugin can either be installed from git repository, from local file system t
 From master:
 ```bash
 # ~~ from master branch ~~
-cordova plugin add https://github.com/katzer/cordova-plugin-email-composer.git
+cordova plugin add https://github.com/tveverywhere/tve-cordova-plugin-email-composer.git
 ```
 from a local folder:
 ```bash
 # ~~ local folder ~~
-cordova plugin add cordova-plugin-email-composer --searchpath path/to/plugin --link
+cordova plugin add tve-cordova-plugin-email-composer --searchpath path/to/plugin --link
 ```
 or to use the last stable version:
 ```bash
 # ~~ stable version ~~
-cordova plugin add cordova-plugin-email-composer@0.8.3
+cordova plugin add tve-cordova-plugin-email-composer@0.8.3
 ```
 
 ### PhoneGap Build
 Add the following xml to your config.xml to always use the latest version of this plugin:
 ```xml
-<gap:plugin name="cordova-plugin-email-composer" version="0.8.3" source="npm" />
+<gap:plugin name="tve-cordova-plugin-email-composer" version="0.8.3" source="npm" />
 ```
 
 
 ## ChangeLog
 #### Version 0.8.3 (01.03.2016)
 63 commits including bug fixes and enhancements:
-- [___change:___] New plugin ID: _cordova-plugin-email-composer_
+- [___change:___] New plugin ID: _tve-cordova-plugin-email-composer_
 - [enhancement:] Published on npm
 - [enhancement:] Allowed the chooser header text to be configured (#113)
 - [enhancement:] Plain mailto: support
@@ -326,9 +326,9 @@ This software is released under the [Apache 2.0 License][apache2_license].
 [wp8_guide]: http://msdn.microsoft.com/en-us/library/windowsphone/develop/hh394003.aspx
 [CLI]: http://cordova.apache.org/docs/en/edge/guide_cli_index.md.html#The%20Command-line%20Interface
 [PGB]: http://docs.build.phonegap.com/en_US/index.html
-[npm]: https://www.npmjs.com/package/cordova-plugin-email-composer
+[npm]: https://www.npmjs.com/package/tve-cordova-plugin-email-composer
 [messageui_framework]: #compile-error-on-ios
-[changelog]: https://github.com/katzer/cordova-plugin-email-composer/blob/master/CHANGELOG.md
+[changelog]: https://github.com/tveverywhere/tve-cordova-plugin-email-composer/blob/master/CHANGELOG.md
 [available]: #determine-if-the-device-is-capable-to-send-emails
 [open]: #open-a-pre-filled-email-draft
 [email_app]: #specify-email-app
